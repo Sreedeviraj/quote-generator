@@ -1,0 +1,51 @@
+.bo{
+    width: 600px;
+    height: auto;
+    background-color:  #FCFAEE;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+    height: 400px;
+}
+.outer{
+    text-align: center;
+    margin: auto;
+}
+.click{
+    border-radius: 6px;
+    width: 105px;
+    height: 35px;
+    color: white;
+    border: 0px;
+    font-size: 15px;
+    background-color: #B8001F;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.click:hover{
+    background-color:  #B8001F; /* Darker shade on hover */
+    transform: scale(1.1); /* Slightly enlarge */
+}
+.random{
+    /* font-family: "Playfair", serif; */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 33px;
+}
+.quo{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.author{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #B8001F;
+}
+.image{
+    width: 150px;
+    height: 150px;
+    border-radius: 6px;
+    object-fit: cover;
+    
+}
